@@ -14,7 +14,7 @@ Get the newest version from the **[latest release](../../releases/latest)**.
 | `netcp-mcp-<version>-win-x64.zip` | The MCP server for GitHub Copilot. |
 | `SHA256SUMS.txt` | Checksums for all of the above. |
 
-Requires 64-bit Windows 10 or 11. Packet capture additionally needs [Npcap](https://npcap.com) and running NetCP as administrator; everything else works without.
+Requires 64-bit Windows 10 or 11. Packet capture (the Packets tab) additionally needs [Npcap](https://npcap.com), a separate free driver with its own licence that the installer does not include, and running NetCP as administrator; everything else works without it, and NetCP tells you if it is missing.
 
 ## Check your download
 
