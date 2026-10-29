@@ -30,7 +30,7 @@ The files are not code-signed yet, so Windows SmartScreen says it protected your
 
 ## Privacy
 
-NetCP runs on your machine. It sends nothing anywhere. Captures can contain passwords and tokens: use **Export HAR** and choose the shareable (redacted) option before sharing one. In shared output, passwords are always masked and user names keep only their first half.
+NetCP runs on your machine and has no telemetry. The only request it makes by itself is an update check: when the app starts it asks GitHub whether a newer release exists, which shows GitHub your IP address and that you use NetCP. Untick **Check for updates** in the app to turn it off. Nothing is downloaded or installed automatically. Captures can contain passwords and tokens: use **Export HAR** and choose the shareable (redacted) option before sharing one. In shared output, passwords are always masked and user names keep only their first half.
 
 ## Support and feedback
 
